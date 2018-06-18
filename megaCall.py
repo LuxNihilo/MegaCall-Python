@@ -7,14 +7,14 @@ import megaVariable
 # Affectation des paramètres aux variables correspondantes.
 if len(sys.argv) == 2:
     commande = (sys.argv[1]).upper()
-    fileName = "email13578.pdf"
-    techName = "Tommy"
+    fileName = "email26372.pdf"
+    techName = "Test"
 elif len(sys.argv) < 4:
     #megaFunction.ecrireLog("erreur", "Nombre de paramètres insuffisant. Paramètres obligatoires : commande, nom du fichier, nom du tech.")
     #sys.exit()
-    commande = "TERMINE"
-    fileName = "2018-06-05 - 01 - Vente Comptant Service - 472395.pdf"
-    techName = "Tommy"
+    commande = "NOUVEAU"
+    fileName = "email26372.pdf"
+    techName = "Test"
 
     #commande = "MENAGE"
     #fileName = "blank.pdf"
